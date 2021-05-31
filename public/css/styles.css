@@ -52,3 +52,9 @@ button {
     color: white;
     padding: 8px;
 }
+
+.location-button {
+    position: relative;
+    top: 10px;
+    left: 30px;
+}

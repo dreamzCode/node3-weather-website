@@ -13,7 +13,6 @@ const forecast = (latitude, longitude, callback) => {
          } else if (message) {
              callback('Unable to find location!');
          } else {
-             console.log(main)
              const data = `Today's Temperature is ${main.temp} and the weather is ${weather[0].main}.`
              const tempRange = `Today's Maximum Temperature is ${main.temp_max} and Minimum Temperature is ${main.temp_min}`
              callback(undefined, data, tempRange )
